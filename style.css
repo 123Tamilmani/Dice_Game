@@ -1,0 +1,201 @@
+body
+{
+  /* align-items: center; */
+  /* background: repeating-linear-gradient(#bde0fe,#a2d2ff); */
+  /* background: -webkit-linear-gradient(#a2d2ff 50% ,#bde0fe 50%); */
+  /* background: linear-gradient(#a2d2ff,#bde0fe); */
+  background-image: url(beautiful-color-ui-gradients-backgrounds-purple-love.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monospace;
+}
+.container
+{
+  position: relative;
+  /* border: 2px solid; */
+  border-radius: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+img
+{
+  position: absolute;
+  top: 25%;
+  left: 44%;
+  width: 120px;
+  height: 120px;
+}
+
+.hidden
+{
+  display: none;
+}
+
+.player1
+{
+  color: #370617;
+  position: relative;
+  /* border: 2px solid #ffc8dd; */
+  background-color: #ffafcc;
+  border: 2px solid #ffafcc;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* background-color: #ffc8dd; */
+  width: 500px;
+  height: 600px;
+}
+
+.name1
+{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.score1
+{
+  color: #e5383b;
+  font-size: 3rem;
+  /* margin-top: 40px; */
+  text-align: center;
+}
+
+.current1
+{
+  position: absolute;
+  border: 2px solid #f4978e;
+  border-radius: 20px;
+  width: 180px;
+  height: 120px;
+  /* font-size: 1.5rem; */
+  left: 30%;
+  bottom: 10%;
+  text-align: center;
+}
+
+.player2
+{
+  color: #370617;
+  background-color: #ffafcc;
+  position: relative;
+  width: 500px;
+  height: 600px;
+  border: 2px solid #ffafcc;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.playeractive
+{
+  border: 2px solid #ffc8dd;
+  background-color: #ffc8dd;
+}
+
+.name2
+{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.score2
+{
+  color: #e5383b;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.current2
+{
+  position: absolute;
+  border: 2px solid #f4978e;
+  border-radius: 20px;
+  width: 180px;
+  height: 120px;
+  /* font-size: 1.5rem; */
+  left: 30%;
+  bottom: 10%;
+  text-align: center;
+}
+
+.reset
+{
+  color: #370617;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  /* margin-right: 20px; */
+  top: 8%;
+  right: 45%;
+  /* left: 50%; */
+}
+
+.roll
+{
+  color: #370617;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 70%;
+  right: 45%;
+}
+
+.hold
+{
+  color: #370617;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 80%;
+  right: 45%;
+}
+
+.currentname1
+{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.currentname2
+{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.currentscore1
+{
+  /* color: #f4978e; */
+  /* color: #660708; */
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.currentscore2
+{
+  /* color: #660708; */
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.playerwinner
+{
+  background-color: black;
+  color: #e5383b;
+}
+/* .name{
+  color: #e5383b;
+} */
